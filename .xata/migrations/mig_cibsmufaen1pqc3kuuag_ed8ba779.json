@@ -1,0 +1,16 @@
+{
+  "id": "mig_cibsmufaen1pqc3kuuag",
+  "parentID": "mig_cibsmrfaen1pqc3kuu9g",
+  "checksum": "1:ed8ba779aa0f9761e95d95f842dc48c2fd8759dc90c748fb6429b91e102d6117",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "lastname",
+          "type": "string"
+        },
+        "table": "authors"
+      }
+    }
+  ]
+}

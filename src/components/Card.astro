@@ -1,29 +1,30 @@
 ---
 export interface Props {
 	title: string;
-	body: string;
-	href: string;
+	author: string;
+	description: string;
 }
 
-const { href, title, body } = Astro.props;
+const { title, author, description } = Astro.props;
 ---
 
-<li class="link-card">
-	<a href={href}>
+<li class="card">
+	
 		<h2>
 			{title}
-			<span>&rarr;</span>
 		</h2>
+		<small>{author}</small>
 		<p>
-			{body}
+			{description}
 		</p>
-	</a>
+
 </li>
-<style>
-	.link-card {
+<style is:global>
+	.card {
 		list-style: none;
 		display: flex;
-		padding: 0.25rem;
+		flex-direction: column;
+		padding: 1rem;
 		background-color: white;
 		background-image: none;
 		background-size: 400%;
@@ -33,16 +34,6 @@ const { href, title, body } = Astro.props;
 		box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
 	}
 
-	.link-card > a {
-		width: 100%;
-		text-decoration: none;
-		line-height: 1.4;
-		padding: 1rem 1.3rem;
-		border-radius: 0.35rem;
-		color: #111;
-		background-color: white;
-		opacity: 0.8;
-	}
 	h2 {
 		margin: 0;
 		font-size: 1.25rem;
@@ -53,11 +44,5 @@ const { href, title, body } = Astro.props;
 		margin-bottom: 0;
 		color: #444;
 	}
-	.link-card:is(:hover, :focus-within) {
-		background-position: 0;
-		background-image: var(--accent-gradient);
-	}
-	.link-card:is(:hover, :focus-within) h2 {
-		color: rgb(var(--accent));
-	}
+
 </style>

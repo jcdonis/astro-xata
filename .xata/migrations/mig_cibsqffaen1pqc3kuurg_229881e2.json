@@ -1,0 +1,16 @@
+{
+  "id": "mig_cibsqffaen1pqc3kuurg",
+  "parentID": "mig_cibsq67aen1pqc3kuuqg",
+  "checksum": "1:229881e2f89a7f022b2f4c67dfb151897e18fea1560d4415c5f817a045ef71ac",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "publishedAt",
+          "type": "datetime"
+        },
+        "table": "reviews"
+      }
+    }
+  ]
+}

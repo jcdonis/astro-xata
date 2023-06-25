@@ -1,0 +1,16 @@
+{
+  "id": "mig_cibsn2faen1pqc3kuubg",
+  "parentID": "mig_cibsmufaen1pqc3kuuag",
+  "checksum": "1:9e16458d8f1cdc374a91694083f5ce9ab86dd79f8203ad873a0c473358ba5713",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "country",
+          "type": "string"
+        },
+        "table": "authors"
+      }
+    }
+  ]
+}

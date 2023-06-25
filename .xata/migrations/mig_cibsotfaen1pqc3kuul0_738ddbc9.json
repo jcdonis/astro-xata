@@ -1,0 +1,19 @@
+{
+  "id": "mig_cibsotfaen1pqc3kuul0",
+  "parentID": "mig_cibsoqnaen1pqc3kuuk0",
+  "checksum": "1:738ddbc99f0e627f8f91eac28b176def626432dd79a0469d1a4cadb43f87039e",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "category",
+          "type": "link",
+          "link": {
+            "table": "categories"
+          }
+        },
+        "table": "books"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mig_cibsb0vaen1pqc3kur40",
+  "checksum": "1:f76624f4bfb04347fd9c0c47f34187d821577fb3a9b277defa0f76f669e43b15",
+  "operations": [
+    {
+      "addTable": {
+        "table": "books"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://jcdonis-s-workspace-2qn51r.us-east-1.xata.sh/db/the-geeks-corner",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

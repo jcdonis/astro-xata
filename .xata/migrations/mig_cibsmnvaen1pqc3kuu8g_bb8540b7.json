@@ -1,0 +1,12 @@
+{
+  "id": "mig_cibsmnvaen1pqc3kuu8g",
+  "parentID": "mig_cibsmmnaen1pqc3kuu70",
+  "checksum": "1:bb8540b71e98540fa306a46494de494556e6a1a8b2cf2bbae500476c025b3c61",
+  "operations": [
+    {
+      "addTable": {
+        "table": "authors"
+      }
+    }
+  ]
+}

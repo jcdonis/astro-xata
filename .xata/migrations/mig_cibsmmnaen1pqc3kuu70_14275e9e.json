@@ -1,0 +1,13 @@
+{
+  "id": "mig_cibsmmnaen1pqc3kuu70",
+  "parentID": "mig_cibsmgnaen1pqc3kuu60",
+  "checksum": "1:14275e9efd374efd4b3539fdd2bde037be255bbf18fae0c2448b3c79885e974e",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "author",
+        "table": "books"
+      }
+    }
+  ]
+}

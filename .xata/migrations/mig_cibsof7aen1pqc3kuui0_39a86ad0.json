@@ -1,0 +1,16 @@
+{
+  "id": "mig_cibsof7aen1pqc3kuui0",
+  "parentID": "mig_cibsob7aen1pqc3kuuh0",
+  "checksum": "1:39a86ad027bae2c9007f748f0e6f691590769dacdf95b892af7bcac78bb2fc7d",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "name",
+          "type": "string"
+        },
+        "table": "categories"
+      }
+    }
+  ]
+}

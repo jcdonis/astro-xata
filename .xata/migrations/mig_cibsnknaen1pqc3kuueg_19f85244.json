@@ -1,0 +1,16 @@
+{
+  "id": "mig_cibsnknaen1pqc3kuueg",
+  "parentID": "mig_cibsnh7aen1pqc3kuudg",
+  "checksum": "1:19f8524401b2557f4d6b2cd1b741c22525f000da8b2d5b142b3ba12de6499045",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "publishedAt",
+          "type": "datetime"
+        },
+        "table": "books"
+      }
+    }
+  ]
+}

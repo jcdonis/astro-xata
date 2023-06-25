@@ -1,0 +1,12 @@
+{
+  "id": "mig_cibspbnaen1pqc3kuung",
+  "parentID": "mig_cibsp47aen1pqc3kuum0",
+  "checksum": "1:66f6e62fc2014a216261028df3c15fc17adda45e5fc921f105aaee774ffa950a",
+  "operations": [
+    {
+      "addTable": {
+        "table": "reviews"
+      }
+    }
+  ]
+}

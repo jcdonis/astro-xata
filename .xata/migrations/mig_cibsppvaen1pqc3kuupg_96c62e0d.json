@@ -1,0 +1,16 @@
+{
+  "id": "mig_cibsppvaen1pqc3kuupg",
+  "parentID": "mig_cibspgfaen1pqc3kuuog",
+  "checksum": "1:96c62e0da6fe51f15e273a8ae4cf6fcfb0939e347b9829dc6e2f729ad93a7402",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "comment",
+          "type": "text"
+        },
+        "table": "reviews"
+      }
+    }
+  ]
+}
